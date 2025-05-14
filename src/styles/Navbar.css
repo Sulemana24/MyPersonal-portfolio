@@ -1,0 +1,116 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.10s ease;
+}
+
+.logo:hover {
+    color: orangered;
+    text-shadow: 0 0 25px orangered, 0 0 25px orangered;
+    transform: scale(1.05);
+}
+
+span {
+    color: orangered;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.contact {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid transparent;
+    font-size: 16px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: #fff;
+}
+
+/* Mobile Styles */
+.hamburger {
+  display: none; 
+  font-size: 1.7rem; 
+  cursor: pointer;
+  color: #fff;
+}
+
+.mobile-menu-open {
+  display: flex !important;
+  flex-direction: column;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  padding: 1rem;
+  z-index: 10; 
+}
+
+.mobile-menu-open a {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+
+.mobile-menu-open .contact {
+  margin-top: 1rem;
+  margin-left: 0;
+  text-align: center;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none; 
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex; 
+    align-items: center; 
+  }
+
+  .header {
+    padding: 1rem; 
+  }
+}

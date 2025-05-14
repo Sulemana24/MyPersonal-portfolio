@@ -1,0 +1,162 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 12%;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  gap: 40px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+
+.home-content {
+  flex: 1 1 500px;
+  padding-right: 40px;
+}
+
+.home-content h3 {
+  font-size: 24px;
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+.home-content h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.home-content span {
+  color: orangered;
+}
+
+.home-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.btn-box .btn-1 {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-box .btn-1:hover {
+  background-color: #fff;
+  color: orangered;
+  box-shadow: 0 0 15px orangered;
+}
+
+.img-box {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 30px rgba(255, 69, 0, 0.3);
+}
+
+.btn-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn-1, .btn-2 {
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: orangered;
+  border: 2px solid orangered;
+}
+
+.btn-2:hover {
+  background-color: orangered;
+  color: #fff;
+  box-shadow: 0 0 15px orangered;
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.typed-cursor {
+  font-weight: bold;
+  color: orangered;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 5%;
+    gap: 0px;
+    margin-top: 0;
+  }
+
+  .home-content {
+    padding-right: 0;
+  }
+
+  .btn-box {
+    justify-content: center;
+  }
+
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+
+
+  .btn-box .btn-1 {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
