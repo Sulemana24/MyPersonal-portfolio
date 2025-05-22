@@ -1,0 +1,150 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #000;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 24px;
+  color: rgb(253, 250, 250);
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: #fff;
+  border: 2px solid orangered;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 45%;
+  margin: 0 8px;
+  box-shadow: inset 0 0 10px orangered;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.footer .social a:hover {
+  transform: scale(1.2) translateY(-10px);
+  color: orangered;
+  border: 2px solid orangered;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: #fff;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+.list a:hover {
+  border-bottom: 3px solid orangered;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 8%;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .home {
+    padding: 30px 8%;
+    gap: 3em;
+  }
+
+  .home-content h1 {
+    font-size: 28px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .btn-box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .img-box img {
+    width: 200px;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 3em;
+    padding: 10% 5%;
+  }
+
+  .about-content h2 {
+    font-size: 24px;
+  }
+
+  .about-content h3 {
+    font-size: 35px;
+  }
+
+  .about-content p {
+    font-size: 18px;
+  }
+
+  .contact-form form {
+    padding: 0 5%;
+  }
+
+  .footer ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .footer .copyright {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .social a {
+    font-size: 20px;
+  }
+
+  .footer .copyright {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer .social a {
+    font-size: 18px;
+  }
+
+  .footer .copyright {
+    font-size: 12px;
+  }
+}
