@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/About.css";
-import Sule from "../assets/sule.jpg";
+import Sule from "../assets/Sule.jpg";
 import {
   SiHtml5,
   SiCss3,
