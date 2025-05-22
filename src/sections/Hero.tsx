@@ -3,7 +3,7 @@ import Typed from "typed.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/Hero.css";
-import Picture from "../assets/Sulemana.jpg";
+import Picture from "../assets/hero.png";
 import CV from "../assets/Sulemana-CV.pdf";
 
 const Hero: React.FC = () => {
