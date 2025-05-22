@@ -5,11 +5,12 @@
     "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "skipLibCheck": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "types": ["react"]
   },
   "include": ["src"]
