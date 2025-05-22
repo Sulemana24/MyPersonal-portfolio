@@ -1,0 +1,149 @@
+.contact-section {
+  padding: 80px 12%;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 2px solid white;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: orangered;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-title {
+  margin-bottom: 0.5rem;
+}
+
+.contact-description {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.contact-info div {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid orangered;
+  box-shadow: 0 0 20px rgba(255, 69, 0, 0.1);
+}
+
+.contact-info div p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a:hover {
+  color: orangered;
+}
+.social-icons a {
+  font-size: 2rem;
+  color: #fff;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: orangered;
+}
+
+.contact-form {
+  flex: 1 1 500px;
+  background: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+  margin-top: 2rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #fff;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  transition: 0.3s ease;
+  margin-top: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #888;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #fff;
+  color: orangered;
+  box-shadow: 0 0 15px orangered;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .contact-section h2 {
+    font-size: 28px;
+  }
+}
