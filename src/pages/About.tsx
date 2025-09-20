@@ -12,6 +12,7 @@ import {
   SiJavascript,
   SiMysql,
   SiTailwindcss,
+  SiNestjs,
 } from "react-icons/si";
 import { MdDevices } from "react-icons/md";
 
@@ -85,20 +86,30 @@ const About: React.FC = () => {
             </div>
             <div className="skill">
               <span>
-                <SiMysql className="icon" /> MySQL
-              </span>
-              <div className="bar">
-                <div className="progress mysql"></div>
-              </div>
-            </div>
-            <div className="skill">
-              <span>
                 <SiReact className="icon" /> React.js
               </span>
               <div className="bar">
                 <div className="progress react"></div>
               </div>
             </div>
+
+            <div className="skill">
+              <span>
+                <SiNestjs className="icon" /> NextJS
+              </span>
+              <div className="bar">
+                <div className="progress nextjs"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>
+                <SiMysql className="icon" /> MySQL
+              </span>
+              <div className="bar">
+                <div className="progress mysql"></div>
+              </div>
+            </div>
+
             <div className="skill">
               <span>
                 <SiGithub className="icon" /> Git & GitHub
