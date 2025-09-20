@@ -95,10 +95,10 @@ const About: React.FC = () => {
 
             <div className="skill">
               <span>
-                <SiNestjs className="icon" /> NestJS
+                <SiNestjs className="icon" /> NextJS
               </span>
               <div className="bar">
-                <div className="progress nestjs"></div>
+                <div className="progress nextjs"></div>
               </div>
             </div>
             <div className="skill">
