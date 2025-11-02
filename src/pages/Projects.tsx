@@ -5,9 +5,28 @@ import EazyCheck from "../assets/eazycheck.jpg";
 import HayateCosmetics from "../assets/scrent.jpg";
 import NextStep from "../assets/nextstep.jpg";
 import PulseBit from "../assets/pulsebit.jpg";
-import ITechTitans from "../assets/titans.jpg";
+import Rent from "../assets/rent.png";
+import Swift from "../assets/swift.png";
 
 const projects = [
+  {
+    title: "RentSmart",
+    image: Rent,
+    description:
+      "RentSmart is a responsive property rental web application designed to simplify the process of finding and booking verified rental properties. The platform provides a clean, intuitive interface that allows users to browse listings, view detailed property information, and make secure bookings — all in one place.",
+    tech: ["NextJs", "TypeScript", "Tailwind", "API", "NodeJs"],
+    liveLink: "https://rent-smart-five.vercel.app/",
+    githubLink: "https://github.com/Sulemana24/RentSmart",
+  },
+  {
+    title: "SwiftBill",
+    image: Swift,
+    description:
+      "SwiftBill — A modern, user-friendly internet & SMS bundles and electricity web application built to streamline daily financial tasks, from bill payments to data purchase. Designed with a clean interface, bold gradients, and intuitive interactions to make finances feel simple and accessible.",
+    tech: ["NextJs", "JavaScript", "Tailwind", "API", "NodeJs", "MongoDB"],
+    liveLink: "https://swiftbill-ten.vercel.app/",
+    githubLink: "https://github.com/Sulemana24/SwiftBill",
+  },
   {
     title: "EazyCheck",
     image: EazyCheck,
@@ -44,15 +63,7 @@ const projects = [
     liveLink: "https://pulse-bit.vercel.app/",
     githubLink: "https://github.com/Sulemana24/PulseBit-",
   },
-  {
-    title: "I-Tech Titans",
-    image: ITechTitans,
-    description:
-      "Tech Titans is a service-driven website offering innovative tech solutions tailored for individuals, startups, and businesses. We specialize in web development, mobile app design, UI/UX, IT support, and digital consulting. With a focus on quality, efficiency, and user-centered design, we help clients bring their ideas to life and stay ahead in the digital world.",
-    tech: ["HTML", "CSS", "JavaScript", "SwiperJs"],
-    liveLink: "https://tech-titans-ten.vercel.app/",
-    githubLink: "https://github.com/Sulemana24/I-Tech-Titans",
-  },
+
   {
     title: "Xest Folio",
     image: XestFolio,
