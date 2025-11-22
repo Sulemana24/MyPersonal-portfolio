@@ -7,14 +7,24 @@ import NextStep from "../assets/nextstep.jpg";
 import PulseBit from "../assets/pulsebit.jpg";
 import Rent from "../assets/rent.png";
 import Swift from "../assets/swift.png";
+import Learnify from "../assets/Learnify.png";
 
 const projects = [
+  {
+    title: "Learnify",
+    image: Learnify,
+    description:
+      "Developed an intelligent learning platform that converts static educational materials into adaptive, AI-powered quizzes tailored to individual learning styles. Implemented secure authentication using Firebase with full sign-in and sign-out functionality. Designed and developed three dedicated dashboards—Admin, Student, and Teacher—each with tailored user interfaces and workflows to support efficient management and personalized learning experiences.",
+    tech: ["NextJs", "TypeScript", "Tailwind", "API", "Firebase"],
+    liveLink: "https://alx-project-nexus-xi.vercel.app/",
+    githubLink: "https://github.com/Sulemana24/alx-project-nexus",
+  },
   {
     title: "RentSmart",
     image: Rent,
     description:
       "RentSmart is a responsive property rental web application designed to simplify the process of finding and booking verified rental properties. The platform provides a clean, intuitive interface that allows users to browse listings, view detailed property information, and make secure bookings — all in one place.",
-    tech: ["NextJs", "TypeScript", "Tailwind", "API", "NodeJs"],
+    tech: ["NextJs", "TypeScript", "Tailwind", "API"],
     liveLink: "https://rent-smart-five.vercel.app/",
     githubLink: "https://github.com/Sulemana24/RentSmart",
   },
@@ -23,7 +33,7 @@ const projects = [
     image: Swift,
     description:
       "SwiftBill — A modern, user-friendly internet & SMS bundles and electricity web application built to streamline daily financial tasks, from bill payments to data purchase. Designed with a clean interface, bold gradients, and intuitive interactions to make finances feel simple and accessible.",
-    tech: ["NextJs", "JavaScript", "Tailwind", "API", "NodeJs", "MongoDB"],
+    tech: ["NextJs", "JavaScript", "Tailwind", "API", "MongoDB"],
     liveLink: "https://swiftbill-ten.vercel.app/",
     githubLink: "https://github.com/Sulemana24/SwiftBill",
   },
