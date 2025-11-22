@@ -15,7 +15,14 @@ const projects = [
     image: Learnify,
     description:
       "Developed an intelligent learning platform that converts static educational materials into adaptive, AI-powered quizzes tailored to individual learning styles. Implemented secure authentication using Firebase with full sign-in and sign-out functionality. Designed and developed three dedicated dashboards—Admin, Student, and Teacher—each with tailored user interfaces and workflows to support efficient management and personalized learning experiences.",
-    tech: ["NextJs", "TypeScript", "Tailwind", "API", "Firebase"],
+    tech: [
+      "NextJs",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+      "Paystack API",
+      "Gemini API",
+    ],
     liveLink: "https://alx-project-nexus-xi.vercel.app/",
     githubLink: "https://github.com/Sulemana24/alx-project-nexus",
   },
@@ -33,7 +40,7 @@ const projects = [
     image: Swift,
     description:
       "SwiftBill — A modern, user-friendly internet & SMS bundles and electricity web application built to streamline daily financial tasks, from bill payments to data purchase. Designed with a clean interface, bold gradients, and intuitive interactions to make finances feel simple and accessible.",
-    tech: ["NextJs", "JavaScript", "Tailwind", "API", "MongoDB"],
+    tech: ["NextJs", "JavaScript", "Tailwind", "Paystack API", "MongoDB"],
     liveLink: "https://swiftbill-ten.vercel.app/",
     githubLink: "https://github.com/Sulemana24/SwiftBill",
   },
