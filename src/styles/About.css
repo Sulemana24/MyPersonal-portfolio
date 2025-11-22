@@ -1,10 +1,8 @@
-
 .about-section {
   padding: 4rem 2rem;
   background-color: #f9f9f9;
   color: #1a1a1a;
 }
-
 
 .about-section h2 {
   text-align: center;
@@ -15,7 +13,7 @@
 }
 
 .about-section h2::after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -34,7 +32,7 @@
   align-items: center;
 }
 
-.sule{
+.sule {
   width: 90%;
   max-width: 400px;
   border-radius: 50%;
@@ -43,7 +41,8 @@
   object-fit: cover;
 }
 
-.about-text, .about-skills {
+.about-text,
+.about-skills {
   flex: 1 1 300px;
   background: white;
   padding: 2rem;
@@ -52,7 +51,8 @@
   transition: transform 0.3s ease;
 }
 
-.about-text:hover, .about-skills:hover {
+.about-text:hover,
+.about-skills:hover {
   transform: translateY(-5px);
 }
 
@@ -104,16 +104,47 @@
   transition: width 1s ease-in-out;
 }
 
-.progress.html { width: 95%; background-color: #E34F26; }
-.progress.css { width: 90%; background-color: #1572B6; }
-.progress.ts { width: 60%; background-color: #007ACC; }
-.progress.tailwind { width: 79%; background-color: #06B6D4; }
-.progress.react { width: 70%; background-color: #61DAFB; }
-.progress.git { width: 86%; background-color: #1C1E21; }
-.progress.responsive { width: 96%; background-color: #28a745; }
-.progress.mysql { width: 40%; background-color: #4479A1; }
-.progress.javascript { width: 87%; background-color: #F7DF1E; }
+.progress.html {
+  width: 95%;
+  background-color: #e34f26;
+}
+.progress.css {
+  width: 90%;
+  background-color: #1572b6;
+}
+.progress.ts {
+  width: 58%;
+  background-color: #007acc;
+}
+.progress.tailwind {
+  width: 87%;
+  background-color: #06b6d4;
+}
+.progress.react {
+  width: 76%;
+  background-color: #61dafb;
+}
+.progress.git {
+  width: 90%;
+  background-color: #1c1e21;
+}
+.progress.responsive {
+  width: 96%;
+  background-color: #28a745;
+}
+.progress.mysql {
+  width: 70%;
+  background-color: #4479a1;
+}
+.progress.javascript {
+  width: 87%;
+  background-color: #f7df1e;
+}
 
+.progress.nextjs {
+  width: 40%;
+  background-color: #e0234e;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -121,7 +152,7 @@
     flex-direction: column;
   }
 
-  .sule{
+  .sule {
     display: none;
   }
 
@@ -129,7 +160,7 @@
     padding: 3rem 1.2rem;
   }
 
-  .about-skills{
+  .about-skills {
     width: 100%;
   }
 }
