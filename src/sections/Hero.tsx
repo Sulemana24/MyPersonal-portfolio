@@ -15,9 +15,8 @@ const Hero: React.FC = () => {
     const typed = new Typed(typedRef.current!, {
       strings: [
         "Frontend Developer",
-        "Graphic Designer",
         "Tech Educator",
-        "Frontend Developer",
+        "Jnr. Software Engineer",
       ],
       typeSpeed: 50,
       backSpeed: 40,
@@ -37,11 +36,15 @@ const Hero: React.FC = () => {
           <span ref={typedRef} className="typed-text"></span>
         </h1>
         <p data-aos="fade-up" data-aos-delay="600">
-          A passionate frontend web developer dedicated to building modern,
-          responsive, and user-friendly websites. With a strong foundation in
-          HTML, CSS, JavaScript, React, and TypeScript, I turn ideas into
-          functional, pixel-perfect interfaces that deliver great user
-          experiences across all devices.
+          I’m a Frontend Developer who specializes in building high-performance
+          React and Next.js applications with clean, modern interfaces. I have
+          strong experience creating EdTech platforms, authentication systems,
+          role-based dashboards, analytics pages, and Firebase-powered backends.
+          I focus on delivering fast, production-ready features — from secure
+          auth flows and file uploads to reusable UI components and optimized
+          data handling. I care about simplicity, performance, and user-centered
+          design, and I enjoy turning complex ideas into smooth, intuitive
+          products.
         </p>
 
         <div className="btn-box" data-aos="zoom-in" data-aos-delay="800">

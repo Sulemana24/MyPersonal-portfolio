@@ -28,13 +28,17 @@ const About: React.FC = () => {
         <div className="about-text" data-aos="fade-right">
           <div>
             <p>
-              I'm <strong>Sulemana Iddrisu</strong>, a frontend developer
-              passionate about building beautiful, fast, and responsive user
-              interfaces with React, TypeScript, HTML, and CSS.
+              I'm <strong>Sulemana Iddrisu</strong>, a Frontend Developer who
+              builds fast, modern, and high-performance user interfaces using
+              React, Next.js, TypeScript, HTML, and CSS.
             </p>
+
             <p>
-              I love turning complex problems into clean, simple, and intuitive
-              designs. I’m always learning new technologies to improve my craft.
+              I enjoy transforming complex ideas into clean, intuitive, and
+              scalable interfaces. My experience includes building
+              authentication systems, dashboards, EdTech tools, and
+              Firebase-powered applications. I'm always learning, improving, and
+              exploring new technologies to deliver better user experiences.
             </p>
           </div>
           <img src={Sule} alt="sule" className="sule" />
