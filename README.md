@@ -1,47 +1,71 @@
-# Hi there, I'm Iddrisu Sulemana! 👋
+💻 Sulemana Iddrisu – Frontend Developer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://your-portfolio-website.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/your-handle)
+Hi! I’m Sulemana Iddrisu, a Frontend Developer specializing in React, Next.js, and modern web applications. I build fast, scalable, and user-friendly products for e-commerce, EdTech, dashboards, and personal projects. I focus on clean UI, smooth user experience, and production-ready features.
 
-**A passionate frontend web developer dedicated to building modern, responsive, and user-friendly websites. With a strong foundation in HTML, CSS, JavaScript, React, and TypeScript, I turn ideas into functional, pixel-perfect interfaces that deliver great user experiences across all devices.**
+🚀 Skills & Expertise
 
-I love building things that live on the internet. My focus is on creating accessible, performant, and user-friendly web experiences.
+Frontend Development: React, Next.js, TypeScript, JavaScript, HTML, CSS
 
-## 🚀 Technologies & Tools
+UI & Styling: Tailwind CSS, Figma, Responsive Design
 
-**Frontend:**
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+State & Data Management: Zustand, LocalStorage, Firebase
 
-**Backend:**
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+Backend & APIs: Firebase Auth & Firestore, Paystack API, Gemini API, MongoDB
 
-**Tools:**
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+Other Tools: UploadThing (File Uploads), SwiperJs, React Icons, Sonner (Notifications)
 
-## 📌 Featured Projects
+📁 Projects
 
-Here are a few of my favorite projects I've built:
+Here’s a selection of my recent work:
 
-1.  **[Project One](https://github.com/your-username/project-one)** - A short, impactful description of what this project does. Built with **React, Node.js**.
-2.  **[Project Two](https://github.com/your-username/project-two)** - A short, impactful description of what this project does. Built with **Next.js, MongoDB**.
-3.  **[Project Three](https://github.com/your-username/project-three)** - A short, impactful description of what this project does. Built with **Vanilla JS, TailwindCSS**.
+Hayate Cosmetics
 
-> **💡 Tip:** See more of my work on my https://sulemanaiddrisu.vercel.app/!
+Full-featured e-commerce platform with customer shopping site and admin dashboard
 
+Payments via Paystack; secure backend with Firebase & Firestore
 
+Highlights: product management, order tracking, smooth shopping UX
 
-## 📫 Let's Connect!
+Learnify
 
-- **Portfolio:** https://sulemanaiddrisu.vercel.app/
-- **Email:** iddrisusulemana665@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/iddrisu-sulemana/
+AI-powered EdTech platform with Admin, Teacher, and Student dashboards
 
-I'm always open to chatting about tech, collaboration, or new opportunities!
+Features: adaptive quizzes, Firebase auth, tailored user workflows
+
+RentSmart
+
+Property rental web app with listings, bookings, and secure transactions
+
+Clean interface, fully responsive
+
+SwiftBill
+
+Internet & SMS bundles and electricity payment platform
+
+Clean UI, easy-to-use interface, payments integrated via Paystack
+
+EazyCheck
+
+GPA calculator for students
+
+Enter courses, grades, and credit hours to automatically calculate GPA and academic class
+
+NextStep Community
+
+Online hub for jobs, courses, projects, and local events
+
+Designed to foster engagement, collaboration, and growth
+
+PulseBit
+
+Personal blog for web development tutorials and insights
+
+Xest Folio
+
+Portfolio for a UI/UX designer
+
+🌐 Contact Me
+
+Email: iddrisusulemana665@gmail.com
+
+Portfolio: https://sulemanaiddrisu.vercel.app/
