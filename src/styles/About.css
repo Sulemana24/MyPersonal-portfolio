@@ -105,23 +105,23 @@
 }
 
 .progress.html {
-  width: 95%;
+  width: 97%;
   background-color: #e34f26;
 }
 .progress.css {
-  width: 90%;
+  width: 97%;
   background-color: #1572b6;
 }
 .progress.ts {
-  width: 58%;
+  width: 79%;
   background-color: #007acc;
 }
 .progress.tailwind {
-  width: 87%;
+  width: 92%;
   background-color: #06b6d4;
 }
 .progress.react {
-  width: 76%;
+  width: 86%;
   background-color: #61dafb;
 }
 .progress.git {
@@ -129,20 +129,20 @@
   background-color: #1c1e21;
 }
 .progress.responsive {
-  width: 96%;
+  width: 98%;
   background-color: #28a745;
 }
 .progress.mysql {
-  width: 70%;
+  width: 60%;
   background-color: #4479a1;
 }
 .progress.javascript {
-  width: 87%;
+  width: 90%;
   background-color: #f7df1e;
 }
 
 .progress.nextjs {
-  width: 40%;
+  width: 75%;
   background-color: #e0234e;
 }
 
