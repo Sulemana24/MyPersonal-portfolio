@@ -1,123 +1,160 @@
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 35px 12%;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 70px;
+  box-sizing: border-box;
 }
 
 .logo {
-  font-size: 25px;
-  color: #fff;
-  font-weight: 600;
-  transition: 0.1s ease;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  z-index: 1001;
 }
 
-.logo:hover {
-  color: orangered;
-  text-shadow: 0 0 25px orangered, 0 0 25px orangered;
-  transform: scale(1.05);
+.logo span {
+  color: #007bff;
 }
 
-span {
-  color: orangered;
+.navbar {
+  display: flex;
+  gap: 2rem;
+  transition: all 0.3s ease;
 }
 
 .navbar a {
-  font-size: 15px;
-  color: #fff;
+  text-decoration: none;
+  color: #333;
   font-weight: 500;
-  margin: 0 20px;
-  border-bottom: 3px solid transparent;
-  transition: 0.3s ease;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
 }
 
 .navbar a:hover,
-.navbar a:active {
-  color: orangered;
-  border-bottom: 3px solid orangered;
+.navbar a.active {
+  color: #007bff;
 }
 
 .contact {
-  padding: 10px 20px;
-  background-color: #fff;
-  color: #000;
-  border: 2px solid transparent;
-  font-size: 16px;
-  border-radius: 10px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  transition: 0.3s ease;
+  padding: 0.5rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
 }
 
 .contact:hover {
-  background-color: orangered;
-  box-shadow: 0 0 25px orangered;
-  color: #fff;
+  background-color: #0056b3;
 }
 
-/* Mobile Styles */
 .hamburger {
   display: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  color: #fff;
+  color: #333;
+  z-index: 1001;
 }
 
-.mobile-menu-open {
-  display: flex !important;
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #333;
-  width: 100%;
-  padding: 1rem;
-  z-index: 10;
-}
-
-.mobile-menu-open a {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-bottom: 1px solid #ddd;
-  display: block;
-}
-
-.mobile-menu-open .contact {
-  margin-top: 1rem;
-  margin-left: 0;
-  text-align: center;
-}
-
-.navbar a.active {
-  color: orangered;
-  font-weight: bold;
-  border-bottom: 2px solid orangered;
-  transition: 0.3s;
-}
-
-/* Media Query for Mobile Devices */
-@media screen and (max-width: 768px) {
-  .navbar {
-    display: none;
+@media (max-width: 1024px) {
+  .header {
+    padding: 1rem;
   }
 
+  .navbar {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar,
   .contact {
     display: none;
   }
 
   .hamburger {
-    display: flex;
-    align-items: center;
+    display: block;
   }
 
+  /* Mobile menu overlay */
+  .navbar.mobile-menu-open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 80px 2rem 2rem;
+    gap: 1.5rem;
+    z-index: 1000;
+    animation: slideIn 0.3s ease;
+  }
+
+  .navbar.mobile-menu-open a {
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .navbar.mobile-menu-open a:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-menu-open + .contact {
+    display: flex;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+    justify-content: center;
+    z-index: 1001;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
   .header {
     padding: 1rem;
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .navbar.mobile-menu-open {
+    padding: 70px 1.5rem 1.5rem;
+  }
+
+  .mobile-menu-open + .contact {
+    left: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
   }
 }

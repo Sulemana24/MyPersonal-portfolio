@@ -21,7 +21,7 @@
 
 .home-content h3 {
   font-size: 24px;
-  color: orangered;
+  color: #007bff;
 }
 
 .home-content h1 {
@@ -58,27 +58,27 @@
 }
 
 .btn-1 {
-  background-color: orangered;
+  background-color: #007bff;
   color: #fff;
   border: none;
 }
 
 .btn-1:hover {
   background-color: #fff;
-  color: orangered;
-  box-shadow: 0 0 15px orangered;
+  color: #007bff;
+  box-shadow: 0 0 15px #007bff;
 }
 
 .btn-2 {
   background: transparent;
-  color: orangered;
-  border: 2px solid orangered;
+  color: #007bff;
+  border: 2px solid #007bff;
 }
 
 .btn-2:hover {
-  background-color: orangered;
+  background-color: #007bff;
   color: #fff;
-  box-shadow: 0 0 15px orangered;
+  box-shadow: 0 0 15px #007bff;
 }
 
 .img-box {
@@ -99,6 +99,10 @@
   opacity: 0;
 }
 
+.fade-in span {
+  color: #007bff;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -107,7 +111,7 @@
 
 .typed-cursor {
   font-weight: bold;
-  color: orangered;
+  color: #007bff;
   animation: blink 0.7s infinite;
 }
 

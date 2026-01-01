@@ -3,7 +3,7 @@ import Typed from "typed.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/Hero.css";
-import Picture from "../assets/hero.png";
+import Picture from "../assets/sul.png";
 import CV from "../assets/Sulemana-CV.pdf";
 
 const Hero: React.FC = () => {
@@ -14,13 +14,14 @@ const Hero: React.FC = () => {
 
     const typed = new Typed(typedRef.current!, {
       strings: [
-        "Frontend Developer",
-        "Tech Educator",
-        "Jnr. Software Engineer",
+        "Frontend Developer building modern web apps",
+        "React and Next.js Developer for scalable products",
+        "Frontend Developer for e-commerce & dashboards",
       ],
       typeSpeed: 50,
-      backSpeed: 40,
-      loop: false,
+      backSpeed: 35,
+      backDelay: 1800,
+      loop: true,
     });
 
     return () => typed.destroy();
@@ -36,15 +37,9 @@ const Hero: React.FC = () => {
           <span ref={typedRef} className="typed-text"></span>
         </h1>
         <p data-aos="fade-up" data-aos-delay="600">
-          I’m a Frontend Developer who specializes in building high-performance
-          React and Next.js applications with clean, modern interfaces. I have
-          strong experience creating EdTech platforms, authentication systems,
-          role-based dashboards, analytics pages, and Firebase-powered backends.
-          I focus on delivering fast, production-ready features — from secure
-          auth flows and file uploads to reusable UI components and optimized
-          data handling. I care about simplicity, performance, and user-centered
-          design, and I enjoy turning complex ideas into smooth, intuitive
-          products.
+          I build fast, modern, and scalable web applications using React &
+          Next.js, delivering clean UI, smooth UX, and production-ready features
+          that help businesses grow and users love.
         </p>
 
         <div className="btn-box" data-aos="zoom-in" data-aos-delay="800">
@@ -54,6 +49,7 @@ const Hero: React.FC = () => {
           <a
             href="mailto:iddrisusulemana665@gmail.com?subject=Hire%20Me&body=Hi%20Sulemana,%20I%27m%20interested%20in%20working%20with%20you."
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button className="btn-2">Hire Me</button>
           </a>
