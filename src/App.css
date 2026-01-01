@@ -9,4 +9,15 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 95%;
+  }
 }

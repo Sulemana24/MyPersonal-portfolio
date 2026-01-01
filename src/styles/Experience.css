@@ -9,7 +9,7 @@
 .title-underline {
   position: relative;
   display: inline-block;
-  color: orangered;
+  color: #007bff;
   font-size: 2rem;
   padding: 5px;
 }
@@ -21,7 +21,7 @@
   bottom: 0;
   width: 40%;
   height: 5px;
-  background: #000;
+  background: #333;
   transform: translateX(-50%);
 }
 
@@ -34,7 +34,7 @@
 }
 
 .experience-card {
-  border-left: 6px solid orangered;
+  border-left: 6px solid #007bff;
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@
 .experience-card h3 {
   margin: 0;
   font-size: 1.25rem;
-  color: orangered;
+  color: #007bff;
   margin-bottom: 0.5rem;
 }
 
@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 .experience-card .company:hover {
-  color: orangered;
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -72,7 +72,6 @@
   gap: 0.5rem;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .experience-list {
     grid-template-columns: 1fr;

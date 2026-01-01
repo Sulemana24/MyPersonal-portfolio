@@ -69,7 +69,7 @@
 }
 
 .project-links a {
-  color: orangered;
+  color: #007bff;
   font-weight: 600;
   transition: 0.3s ease;
 }

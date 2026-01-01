@@ -2,19 +2,44 @@ import React from "react";
 import "../styles/Projects.css";
 import XestFolio from "../assets/xest.jpg";
 import EazyCheck from "../assets/eazycheck.jpg";
-import HayateCosmetics from "../assets/scrent.jpg";
+import HayateCosmetics from "../assets/hayate.png";
 import NextStep from "../assets/nextstep.jpg";
 import PulseBit from "../assets/pulsebit.jpg";
 import Rent from "../assets/rent.png";
 import Swift from "../assets/swift.png";
 import Learnify from "../assets/Learnify.png";
+import Hay1 from "../assets/hay1.png";
+import Hay2 from "../assets/hay2.png";
+import Hay3 from "../assets/hay3.png";
+import Hay4 from "../assets/hay4.png";
+import Hay5 from "../assets/hay5.png";
+import Hay6 from "../assets/hay6.png";
+import Hay7 from "../assets/hay7.png";
+import Carousel from "./Carousel";
 
 const projects = [
+  {
+    title: "Hayate Cosmetics",
+    image: HayateCosmetics,
+    description:
+      "Hayate Cosmetics is a full-featured e-commerce platform that helps beauty brand sell online effortlessly. Customers enjoy a smooth shopping experience with product browsing, cart management, and secure checkout via Paystack. Meanwhile, admins manage products, orders, and staff efficiently through a secure dashboard. Built with Next.js, TypeScript, Tailwind, Firebase, and Uploadthing API, it’s designed for performance, scalability, and driving sales.",
+    tech: [
+      "NextJs",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+      "Paystack API",
+      "Uploadthing API",
+    ],
+    liveLink: "https://hayate-cosmetics-fb5u.vercel.app/",
+    githubLink: "https://github.com/Sulemana24/Hayate-Cosmetics",
+    screenshots: [HayateCosmetics, Hay1, Hay2, Hay3, Hay4, Hay5, Hay6, Hay7],
+  },
   {
     title: "Learnify",
     image: Learnify,
     description:
-      "Developed an intelligent learning platform that converts static educational materials into adaptive, AI-powered quizzes tailored to individual learning styles. Implemented secure authentication using Firebase with full sign-in and sign-out functionality. Designed and developed three dedicated dashboards—Admin, Student, and Teacher—each with tailored user interfaces and workflows to support efficient management and personalized learning experiences.",
+      "Learnify is an AI-powered learning platform that transforms static materials into adaptive quizzes for personalized learning. Features include secure Firebase authentication and three dashboards—Admin, Student, Teacher—designed to streamline management and enhance learning outcomes.",
     tech: [
       "NextJs",
       "TypeScript",
@@ -30,7 +55,7 @@ const projects = [
     title: "RentSmart",
     image: Rent,
     description:
-      "RentSmart is a responsive property rental web application designed to simplify the process of finding and booking verified rental properties. The platform provides a clean, intuitive interface that allows users to browse listings, view detailed property information, and make secure bookings — all in one place.",
+      "RentSmart is a responsive property rental platform that simplifies finding and booking verified rentals. Users can browse listings, access detailed property info, and book securely, saving time and avoiding booking hassles.",
     tech: ["NextJs", "TypeScript", "Tailwind", "API"],
     liveLink: "https://rent-smart-five.vercel.app/",
     githubLink: "https://github.com/Sulemana24/RentSmart",
@@ -39,34 +64,27 @@ const projects = [
     title: "SwiftBill",
     image: Swift,
     description:
-      "SwiftBill — A modern, user-friendly internet & SMS bundles and electricity web application built to streamline daily financial tasks, from bill payments to data purchase. Designed with a clean interface, bold gradients, and intuitive interactions to make finances feel simple and accessible.",
+      "SwiftBill is a user-friendly platform for managing internet, SMS bundles, and electricity payments. Its intuitive interface and clear workflows make daily financial tasks fast, simple, and accessible.",
     tech: ["NextJs", "JavaScript", "Tailwind", "Paystack API", "MongoDB"],
     liveLink: "https://swiftbill-ten.vercel.app/",
     githubLink: "https://github.com/Sulemana24/SwiftBill",
   },
+
   {
     title: "EazyCheck",
     image: EazyCheck,
     description:
-      "Our GPA Calculator makes it easy for students to track their academic performance by entering course details, grades, and credit hours. It automatically calculates GPA and academic class, helping students stay informed and plan for success.",
+      "EazyCheck is a GPA calculator that helps students track performance and calculate academic standing automatically. It empowers students to plan effectively and stay on top of their academic goals.",
     tech: ["HTML", "JavaScript", "CSS", "LocalStorage"],
     liveLink: "https://eazy-check.vercel.app/",
     githubLink: "https://github.com/Sulemana24/EazyCheck",
   },
-  {
-    title: "Hayate Cosmetics",
-    image: HayateCosmetics,
-    description:
-      "A dynamic and intuitive E-commence website that allows users to browse products, add or remove items, and update quantities effortlessly. It supports multiple payment options and captures shipping information to ensure a smooth and secure checkout process. Built with user experience and functionality in mind.",
-    tech: ["HTML", "CSS", "JavaScript", "API", "LocalStorage"],
-    liveLink: "https://shopping-cart-jet-phi.vercel.app/",
-    githubLink: "https://github.com/Sulemana24/Shopping-Cart",
-  },
+
   {
     title: "NextStep Community",
     image: NextStep,
     description:
-      "A vibrant online hub connecting users with jobs, courses, projects, and local events. Designed to foster engagement, collaboration, and growth within the community through an easy-to-navigate interface and rich features.",
+      "NextStep Community is an online hub connecting users with jobs, courses, projects, and local events. It helps users discover opportunities, collaborate, and grow within a supportive community.",
     tech: ["React", "HTML", "JavaScript", "CSS", "SwiperJs"],
     liveLink: "https://next-step-psi-henna.vercel.app/",
     githubLink: "https://github.com/Sulemana24/NextStep",
@@ -75,7 +93,7 @@ const projects = [
     title: "PulseBit",
     image: PulseBit,
     description:
-      "A personal blog where I share insights, tutorials, and updates on web development, frontend technologies, and programming best practices. This space allows me to document my learning journey, explore new concepts, and contribute to the developer community by providing clear, practical content that helps others grow.",
+      "PulseBit is a developer-focused blog where I share tutorials, insights, and best practices in web development. It demonstrates my expertise in frontend technologies and ability to communicate complex concepts clearly to help other developers succeed.",
     tech: ["JavaScript", "HTML", "CSS", "LocalStorage"],
     liveLink: "https://pulse-bit.vercel.app/",
     githubLink: "https://github.com/Sulemana24/PulseBit-",
@@ -99,7 +117,13 @@ const Projects: React.FC = () => {
       <div className="projects-container">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
-            <img src={project.image} alt={project.title} />
+            <div className="project-images">
+              {project.screenshots ? (
+                <Carousel images={project.screenshots} title={project.title} />
+              ) : (
+                <img src={project.image} alt={project.title} />
+              )}
+            </div>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="tech-stack">
