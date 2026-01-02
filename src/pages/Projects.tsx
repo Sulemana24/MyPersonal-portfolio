@@ -22,7 +22,8 @@ const projects = [
     title: "Hayate Cosmetics",
     image: HayateCosmetics,
     description:
-      "Hayate Cosmetics is a full-featured e-commerce platform that helps beauty brand sell online effortlessly. Customers enjoy a smooth shopping experience with product browsing, cart management, and secure checkout via Paystack. Meanwhile, admins manage products, orders, and staff efficiently through a secure dashboard. Built with Next.js, TypeScript, Tailwind, Firebase, and Uploadthing API, it’s designed for performance, scalability, and driving sales.",
+      "Hayate Cosmetics is a full-featured e-commerce web application built for a beauty brand to sell products online and manage operations efficiently. It provides customers with a fast, mobile-friendly shopping experience including product browsing, cart management, and secure checkout using Paystack. To support business operations, I built a protected admin dashboard that allows admins to manage products, orders, staff access, pricing, and inventory in real time. The platform is optimized for performance, scalability, and conversion.",
+
     tech: [
       "NextJs",
       "TypeScript",
