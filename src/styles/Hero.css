@@ -153,6 +153,7 @@
   }
 
   .img-box {
+    margin-top: 5rem;
     width: 50%;
     height: 100%;
     justify-content: flex-end;
